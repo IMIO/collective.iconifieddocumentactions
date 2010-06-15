@@ -1,0 +1,14 @@
+README.txt
+setup.cfg
+setup.py
+communesplone/__init__.py
+communesplone.iconified_document_actions.egg-info/PKG-INFO
+communesplone.iconified_document_actions.egg-info/SOURCES.txt
+communesplone.iconified_document_actions.egg-info/dependency_links.txt
+communesplone.iconified_document_actions.egg-info/entry_points.txt
+communesplone.iconified_document_actions.egg-info/namespace_packages.txt
+communesplone.iconified_document_actions.egg-info/requires.txt
+communesplone.iconified_document_actions.egg-info/top_level.txt
+communesplone.iconified_document_actions.egg-info/zip-safe
+communesplone/iconified_document_actions/__init__.py
+communesplone/iconified_document_actions/tests.py
