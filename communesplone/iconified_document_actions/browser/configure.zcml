@@ -5,14 +5,7 @@
 
     <browser:viewlet
         name="plone.abovecontenttitle.iconifieddocumentactions"
-        for="Products.PloneMeeting.interfaces.IMeetingItem"
-        manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
-        class=".viewlets.IconifiedDocumentActionsViewlet"
-        permission="zope2.View"
-        />
-    <browser:viewlet
-        name="plone.abovecontenttitle.iconifieddocumentactions"
-        for="Products.PloneMeeting.interfaces.IMeeting"
+        for="*"
         manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
         class=".viewlets.IconifiedDocumentActionsViewlet"
         permission="zope2.View"
