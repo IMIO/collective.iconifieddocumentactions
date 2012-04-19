@@ -9,6 +9,6 @@ class IconifiedDocumentActionsViewlet(ViewletBase):
 
         self.context_state = getMultiAdapter((self.context, self.request),
                                              name=u'plone_context_state')
-        self.actions = self.context_state.actions().get('document_actions', None)
+        self.actions = self.context_state.actions('document_actions')
 
     index = ViewPageTemplateFile("iconified_document_actions.pt")
