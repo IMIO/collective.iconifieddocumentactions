@@ -5,23 +5,22 @@
 
     <h5 class="hiddenStructure" i18n:translate="heading_document_actions">Document Actions</h5>
 
-    <ul tal:define="normalizeString nocall: context/@@plone/normalizeString">
+    <ul>
     <tal:actions repeat="daction view/actions" define="portal_url python: context.portal_url.getPortalObject().absolute_url()">
         <li>
             <a href="" 
                tal:attributes="href daction/url"
                tal:define="title daction/title;
-                           icon python:context.portal_actionicons.getActionIcon('plone', daction['id'], None)"
+                           icon daction/icon"
                tal:condition="icon">
                 <img i18n:attributes="title" src="" alt="" title=""
-                     tal:attributes="src    python: portal_url + '/' + icon;
+                     tal:attributes="src    icon;
                                      id     python: 'document-action-' + daction['id'].lower();
                                      title  title;
                                      alt    title;" />
             </a>
         </li>
     </tal:actions>
-
     </ul>
     </tal:docactions>
 

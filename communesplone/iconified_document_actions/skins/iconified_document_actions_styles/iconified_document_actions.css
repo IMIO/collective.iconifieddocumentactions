@@ -14,7 +14,7 @@ padding: 0;
 display: block;
 }
 .iconifiedDocumentActions li {
-display: inline;
+display: inline !important;
 list-style: none;
 list-style-image: none;
 margin: 0;
