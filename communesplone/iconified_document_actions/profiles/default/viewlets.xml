@@ -8,4 +8,8 @@
   <hidden manager="plone.abovecontenttitle" skinname="*">
     <viewlet name="plone.abovecontenttitle.documentactions" />
   </hidden>
+  <!-- if we are using urban, we hide the viewlet defined in it that do the same -->
+  <hidden manager="plone.belowcontentbody" skinname="*">
+    <viewlet name="plone.abovecontenttitle.documentactions" />
+  </hidden>
 </object>
