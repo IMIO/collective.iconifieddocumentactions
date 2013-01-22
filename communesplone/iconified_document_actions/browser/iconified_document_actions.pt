@@ -6,7 +6,7 @@
     <h5 class="hiddenStructure" i18n:translate="heading_document_actions">Document Actions</h5>
 
     <ul>
-    <tal:actions repeat="daction view/actions" define="portal_url python: context.portal_url.getPortalObject().absolute_url()">
+    <tal:actions repeat="daction view/actions">
         <li>
             <a href="" 
                tal:attributes="href daction/url"
