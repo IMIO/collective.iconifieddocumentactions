@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.1 (unreleased)
+----------------
+
+* Prepare release on pypi.imio.be
+
+* setuptools support of tag_svn_revision is broken with subversion 1.8
+
 1.0 (2013-04-11)
 ----------------
 
