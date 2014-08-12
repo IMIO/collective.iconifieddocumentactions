@@ -25,7 +25,7 @@
       />
 
    <browser:resourceDirectory
-      name="communesplone.iconified_document_actions"
+      name="communesplone.iconified_document_actions.static"
       directory="static"
       />
 
