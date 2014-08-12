@@ -2,9 +2,9 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="communesplone.iconified_document_actions">
 
-    <include file="skins.zcml" />
     <include package=".browser" />
 
     <genericsetup:registerProfile
@@ -14,5 +14,20 @@
       description='Extension profile for "iconified_document_actions"'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
+   <genericsetup:upgradeStep
+      title="Remove skins, use resource"
+      description="SKins are no more used on Plone. We prefer use resource directory"
+      source="1.0"
+      destination="2"
+      handler="communesplone.iconified_document_actions.upgrades.remove_skins_directory"
+      profile="communesplone.iconified_document_actions:default"
+      />
+
+   <browser:resourceDirectory
+      name="communesplone.iconified_document_actions"
+      directory="static"
+      />
+
 
 </configure>

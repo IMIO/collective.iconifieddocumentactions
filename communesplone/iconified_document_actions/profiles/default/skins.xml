@@ -7,12 +7,7 @@
         request_varname="plone_skin">
 
  <object name="iconified_document_actions_styles"
-         meta_type="Filesystem Directory View"
-         directory="communesplone.iconified_document_actions:skins/iconified_document_actions_styles"/>
- 
- <skin-path name="*">
-  <layer insert-after="custom" 
-         name="iconified_document_actions_styles"/>
- </skin-path>
+         remove="True"
+         />
 
 </object>
