@@ -4,3 +4,5 @@ recursive-include communesplone *.xml
 recursive-include communesplone *.zcml
 recursive-include docs *.GPL
 recursive-include docs *.txt
+include buildout.cfg
+include *.py
