@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
@@ -14,9 +15,9 @@ setup(name='communesplone.iconified_document_actions',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='',
-      author='CommunesPlone.org',
-      author_email='support@communesplone.org',
-      url='http://svn.communesplone.org/svn/communesplone/communesplone.iconified_document_actions',
+      author='Imio',
+      author_email='support@imio.be',
+      url='https://github.com/IMIO/communesplone.iconified_document_actions',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['communesplone'],

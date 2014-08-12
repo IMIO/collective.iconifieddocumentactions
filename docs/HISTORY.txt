@@ -4,18 +4,30 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Delete old dtml refences.
+  [bsuttor]
+
+- Use resource directory instead of portal_skins
+  [bsuttor]
+
+- Add upgrade step for deleting portal_skins
+  [bsuttor]
+
+- Move to github
+  [bsuttor]
 
 
 1.1 (2014-02-26)
 ----------------
 
-* Prepare release on pypi.imio.be
+- Prepare release on pypi.imio.be
+  [jfroche]
 
-* setuptools support of tag_svn_revision is broken with subversion 1.8
+- setuptools support of tag_svn_revision is broken with subversion 1.8
+  [gotcha]
 
 1.0 (2013-04-11)
 ----------------
 
-* Released version for Plone4+
+- Released version for Plone4+
 
