@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.2'
+version = '1.3.dev0'
 
 setup(name='communesplone.iconified_document_actions',
       version=version,
