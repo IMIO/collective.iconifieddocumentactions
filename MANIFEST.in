@@ -7,4 +7,5 @@ recursive-include collective *.robot
 recursive-include docs *.GPL
 recursive-include docs *.txt
 include buildout.cfg
+include *.rst
 include *.py
