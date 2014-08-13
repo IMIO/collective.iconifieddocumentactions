@@ -16,11 +16,11 @@
       />
 
    <genericsetup:upgradeStep
-      title="Remove skins and old registered CSS, use resource"
-      description="Skins are no more used on Plone. We prefer use resource directory"
+      title="Move from communesplone.documentactions, and do some cleanup"
+      description="Remove skins and old registered CSS, use a resource directory, unregister old browser layer."
       source="1.0"
       destination="2"
-      handler="collective.iconifieddocumentactions.upgrades.cleanup_skins_and_css"
+      handler="collective.iconifieddocumentactions.upgrades.move_to_collective_iconifieddocumentactions"
       profile="collective.iconifieddocumentactions:default"
       />
 
