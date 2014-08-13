@@ -11,9 +11,9 @@ setup(name='collective.iconifieddocumentactions',
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Programming Language :: Python",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='',
       author='Imio',
       author_email='support@imio.be',
@@ -27,6 +27,11 @@ setup(name='collective.iconifieddocumentactions',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
+      extras_require={
+          'test': [
+              'plone.app.robotframework',
+          ],
+      },
       entry_points="""
       # -*- Entry points: -*-
       """,
