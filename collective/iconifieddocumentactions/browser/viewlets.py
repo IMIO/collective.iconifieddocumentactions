@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 from plone.app.layout.viewlets import ViewletBase
 from zope.component import getMultiAdapter
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from Products.CMFCore.utils import getToolByName
+
 
 class IconifiedDocumentActionsViewlet(ViewletBase):
     def update(self):

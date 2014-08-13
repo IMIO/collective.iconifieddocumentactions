@@ -16,7 +16,7 @@
  <stylesheet title="CSS styles for displaying document_actions as icons" cacheable="True"
              compression="safe" cookable="True" enabled="1" media="all"
              rel="stylesheet" rendering="import" 
-             id="++resource++communesplone.iconified_document_actions.static/iconified_document_actions.css"
+             id="++resource++collective.iconifieddocumentactions.static/iconifieddocumentactions.css"
              expression=""/>
  <!-- ##/code-section cssregistry.xml -->
 </object>

@@ -4,7 +4,7 @@ import os
 
 version = '1.2.2.dev0'
 
-setup(name='communesplone.iconified_document_actions',
+setup(name='collective.iconifieddocumentactions',
       version=version,
       description="Display document_actions as icons",
       long_description=open("README.txt").read() + "\n" +
@@ -17,10 +17,10 @@ setup(name='communesplone.iconified_document_actions',
       keywords='',
       author='Imio',
       author_email='support@imio.be',
-      url='https://github.com/IMIO/communesplone.iconified_document_actions',
+      url='https://github.com/IMIO/collective.iconifieddocumentactions',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['communesplone'],
+      namespace_packages=['collective'],
       include_package_data=True,
       zip_safe=True,
       install_requires=[
