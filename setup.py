@@ -7,8 +7,8 @@ version = '1.3.2.dev0'
 setup(name='collective.iconifieddocumentactions',
       version=version,
       description="Display document_actions as icons",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open("CHANGES.rst").read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           "Programming Language :: Python",
