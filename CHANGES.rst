@@ -4,8 +4,9 @@ Changelog
 1.3.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Completed upgrade step while moving from communesplone.iconfied_document_actions
+  to collective.iconifieddocumentactions: relauch every steps and remove old browser layer.
+  [gbastien]
 
 1.3.1 (2014-08-13)
 ------------------
