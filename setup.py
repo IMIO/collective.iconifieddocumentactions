@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.2.2.dev0'
+version = '1.3'
 
 setup(name='collective.iconifieddocumentactions',
       version=version,
