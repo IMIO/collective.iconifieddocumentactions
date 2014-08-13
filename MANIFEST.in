@@ -1,7 +1,7 @@
-recursive-include communesplone *.css
-recursive-include communesplone *.pt
-recursive-include communesplone *.xml
-recursive-include communesplone *.zcml
+recursive-include collective *.css
+recursive-include collective *.pt
+recursive-include collective *.xml
+recursive-include collective *.zcml
 recursive-include docs *.GPL
 recursive-include docs *.txt
 include buildout.cfg
