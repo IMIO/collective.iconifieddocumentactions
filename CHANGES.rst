@@ -1,7 +1,11 @@
 Changelog
 =========
+1.3.3 (unreleased)
+------------------
 
-1.3.2 (unreleased)
+- Nothing changed yet.
+
+1.3.2 (2014-08-13)
 ------------------
 
 - Completed upgrade step while moving from communesplone.iconfied_document_actions
